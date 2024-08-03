@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    align-items: center;    /* Center horizontally */
+    justify-content: flex-start; /* Center vertically */
+             /* Full viewport height for vertical centering */
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;     /* Space between label and input */
+    text-align: center;     /* Center label text */
+  }
+  
+  .input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;           /* Fixed width for consistent appearance */
+    text-align: center;     /* Center text inside the input */
+  }
+  

@@ -1,0 +1,17 @@
+.button {
+    display: block;         /* Make the button a block-level element */
+    margin: 20px auto;      /* Center the button horizontally */
+    padding: 10px 20px;     /* Add padding for better appearance */
+    background-color: #4CAF50; /* Change to your desired color */
+    color: white;           /* Text color */
+    border: none;           /* Remove default border */
+    border-radius: 4px;     /* Rounded corners */
+    cursor: pointer;        /* Change cursor to pointer on hover */
+    font-size: 16px;        /* Increase font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darken on hover for visual feedback */
+  }
+  

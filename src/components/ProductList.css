@@ -1,0 +1,83 @@
+/* ProductList.css */
+
+/* Container styles */
+ul {
+  margin: 50px auto; /* Center horizontally */
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  list-style-type: none; /* Remove bullet points */
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Ensure children fit within the container */
+}
+
+/* List item styles */
+li {
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Vertically center content */
+  justify-content: space-between; /* Space out items */
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #ffffff; /* White background for items */
+  border-radius: 8px; /* Slightly rounded corners */
+  border: 1px solid #e0e0e0; /* Light border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Slight shadow */
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Animation effect */
+}
+
+li:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  background-color: #f1f1f1; /* Slightly darker on hover */
+}
+
+/* Typography for List Items */
+li span {
+  font-size: 16px; /* Increase font size */
+  font-weight: 500; /* Medium weight font */
+  color: #333; /* Dark gray text */
+  flex: 1; /* Allow spans to take up equal space */
+  text-align: center; /* Center align text in spans */
+}
+
+/* Product ID styling */
+li span:first-child {
+  font-weight: 700; /* Bold product ID */
+  color: #007bff; /* Primary color for ID */
+}
+
+/* Product Price styling */
+li span:nth-child(3) {
+  font-weight: 600; /* Bold price */
+  color: #28a745; /* Green color for price */
+}
+
+/* Delete button styling */
+button {
+  padding: 8px 16px; /* Padding for the button */
+  font-size: 14px; /* Font size */
+  color: #fff; /* White text */
+  background-color: #dc3545; /* Red background */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s ease-in-out; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Total amount styling */
+.total{
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Bold font */
+  color: #444; /* Darker gray text */
+  text-align: right; /* Right-align the total amount */
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #e8f0fe; /* Light blue background */
+  border-top: 2px solid #e0e0e0; /* Top border to separate total */
+  border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+  margin: 0; /* Remove default margin */
+}
